@@ -147,5 +147,9 @@ def demo():
     stats = herd.status()
     print(f"\nHerd status: {stats['done']}/{stats['total_agents']} done, {stats['error']} errors")
 
-if __name__ == "__main__":
+def main():
     demo()
+
+
+if __name__ == "__main__":
+    main()
